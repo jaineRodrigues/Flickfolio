@@ -1,53 +1,48 @@
+.film h1{
+  margin-top: 7em;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-.film-info{
+.film-info {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  margin: 4em;
+  margin: 2em;
 }
 
-.film-info h1{
-  margin: 2em 0;
-  color:#ffffff;
+.film-info .image {
+  flex: 1 1 50%;
 }
 
-.film-info .image{
-  flex:1 1 45rem;
-}
-
-.film-info .image img{
+.film-info .image img {
   width: 100%;
-}
-.film-info .content{
-  flex:1 1 45rem;
-  padding:2rem;
-}
-
-.film-info .content h3{
-  color:#fff;
-  margin-top: 2em;
-  margin-bottom: 0.8em;
-  font-size:1.2em;
-}
-
-.film-info .content span{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  font-size: 1.4rem;
-  color:#ccc;
-  padding:1rem 0;
-  line-height: 1.8;
-}
-
-.film-info img{
   border-radius: 2%;
-  width: 100%;
   max-width: 800px;
   max-height: 600px;
   object-fit: cover;
 }
 
-.film-info span{
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.film-info .content {
+  flex: 1 1 50%;
+  padding: 2rem;
+}
+
+.film-info .content h3 {
+  color: #fff;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  font-size: 1.2em;
+}
+
+.film-info .content span {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.4rem;
+  color: #ccc;
+  padding: 1rem 0;
+  line-height: 1.8;
 }
 
 .area-buttons button {
@@ -76,4 +71,18 @@
   
 .area-buttons a:hover{
   color: #FFF;
+}
+
+@media screen and (max-width: 768px) {
+  .film-info {
+    flex-direction: column;
+    margin: 2em;
+  }
+
+  .film-info .image,
+  .film-info .content {
+    flex: 1 1 100%;
+    order: unset;
+    margin-bottom: 1em;
+  }
 }

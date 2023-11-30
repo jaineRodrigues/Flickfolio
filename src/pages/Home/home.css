@@ -9,7 +9,6 @@
     border-radius: 4px;
 }
 
-
 .row {
     display: flex;
     align-items: center;
@@ -17,27 +16,27 @@
     padding-top: 80px; 
 }
   
-  .row .content {
+.row .content {
     padding: 4rem;
-  }
+}
   
-  .row .content h3 {
+.row .content h3 {
     font-size: 2rem;
     color: #ffffff5f;
-  }
+}
 
 .list-films {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 2.5rem;
-    margin-right:8%;
+    margin-right: 8%;
 }
 
 .list-films article {
-    padding:2rem;
+    padding: 2rem;
     margin: 4rem;
     text-align: center;
-    width: 90%;
+    width: 80%;
     border-radius: 1em;
 }
 
@@ -47,13 +46,12 @@
     text-align: center;
     font-size: 1.2em;
     display: block;
-    color:#cac5c5;
-   
+    color: #cac5c5;
 }
 
 .list-films article:hover {
-   transform: scale(1.1);
-   transition: all 0.5s;
+    transform: scale(1.1);
+    transition: all 0.5s;
 }
 
 .list-films a:hover {
@@ -61,11 +59,9 @@
 }
 
 .list-films img {
-    width: 800px;
     max-width: 100%;
-    max-height: 340px;
+    max-height: auto;
     object-fit: cover;
-    display: block;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
@@ -83,7 +79,7 @@
     border-bottom-right-radius: 8px;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 991px) {
     .list-films {
         grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
         gap: 1.5rem;
@@ -104,6 +100,44 @@
     }
 }
 
-.list-films:hover a {
-    color: #fff;
+@media screen and (max-width: 768px) {
+    .list-films {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+        gap: 1rem;
+    }
+
+    .list-films article {
+        padding: 0.5rem;
+    }
+
+    .list-films strong {
+        font-size: 1em;
+        margin-left: 0.5em;
+    }
+
+    .list-films a {
+        font-size: 4vw;
+        padding: 4px 8px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .list-films {
+        grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+        gap: 0.5rem;
+    }
+
+    .list-films article {
+        padding: 0.3rem;
+    }
+
+    .list-films strong {
+        font-size: 0.9em;
+        margin-left: 0.3em;
+    }
+
+    .list-films a {
+        font-size: 6vw;
+        padding: 2px 4px;
+    }
 }

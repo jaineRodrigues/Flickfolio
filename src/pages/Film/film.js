@@ -61,9 +61,9 @@ function Film() {
         );
     }
     return (
-        <div className="film-info">
+        <div className="film">
             <h1>{film.title}</h1>
-            <div className="row">
+            <div className="film-info">
                 
                 <div className="image">
                     <img src={`https://image.tmdb.org/t/p/original/${film.backdrop_path}`} alt={film.title} />
@@ -80,8 +80,8 @@ function Film() {
                         <button>
                             <a target="blank" rel="externo" href={`https://youtube.com/results?search_query=${film.title} Trailer`}>
                                 {" "}
-                                Trailer
                             </a>
+                            Trailer
                         </button>
                     </div>
                 </div>
