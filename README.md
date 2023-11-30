@@ -1,71 +1,51 @@
-# Getting Started with Create React App
+### Flick folio 🎬
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Catálogo de filmes 🍿
 
-## Available Scripts
+### Tabela de Conteúdos
 
-In the project directory, you can run:
+1. [Visão Geral](#visão-geral)
+2. [Funcionalidades](#funcionalidades)
+3. [Tecnologias Utilizadas](#tecnologias-utilizadas)
+4. [Instalação](#instalação)
+5. [Uso](#uso)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Visão Geral 👀
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Projeto de catalogo de filmes realizado para iniciar os estudos com o framework React, para listar os filmes em cartazes foi consumida a api de filmes the movie: https://www.themoviedb.org/
 
-### `npm test`
+### Funcionalidades 🌟
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Lista das principais funcionalidades do catálogo de filmes.
+- Por exemplo:
+  - Visualizar todos os filmes em cartazes
+  - Visualização dos detalhes de um filme específico.
+  - Adicionar filmes aos favoritos.
+  - Remover filmes dos favoritos
 
-### `npm run build`
+### Tecnologias Utilizadas 💻
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- JavaScript
+- React
+- HTML/CSS
+- react-router-dom
+- react-toastify
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Instalação 🚀
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Clone o repositório
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-### `npm run eject`
+- Acesse o diretório do projeto
+cd nome-do-repositorio
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-  Instale as dependências
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Uso 📝
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# Flickfolio" 
+-  Iniciar a aplicação
+npm start
+- O projeto iniciara na porta: http://localhost:3000/
