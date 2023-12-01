@@ -32,6 +32,9 @@ Projeto de catalogo de filmes realizado para iniciar os estudos com o framework 
 - react-router-dom
 - react-toastify
 
+### Armazenamento
+
+- A lista favoritos são armazenados no armazenamento local do navegador.
 ### Instalação 🚀
 
 - Clone o repositório
