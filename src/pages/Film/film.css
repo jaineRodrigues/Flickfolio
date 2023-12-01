@@ -15,7 +15,7 @@
 }
 
 .film-info .image{
-  flex:1 1 40rem;
+  flex:1 1 45rem;
 }
 
 .film-info .image img{
@@ -23,7 +23,7 @@
 }
 
 .film-info .content{
-  flex:1 1 40rem;
+  flex:1 1 45rem;
   padding:0;
 }
 
@@ -51,7 +51,7 @@
 }
 
 .film-info span{
- font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .area-buttons button {
@@ -82,3 +82,47 @@
   color: #FFF;
 }
 
+
+
+@media (max-width:991px){
+
+  html{
+    font-size: 55%;
+  }
+}
+
+@media (max-width:768px){
+  .home{
+    background-position: left;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .film h1{
+    font-size: 2.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .film-info .content h3{
+    font-size: 2rem;
+  }
+
+  .film-info .content span{
+    font-size: 1.8rem;
+  }
+
+  .film-info img{
+    max-width: 100%;
+  }
+
+}
+
+@media (max-width:450px){
+
+  html{
+    font-size: 50%;
+  }
+
+}
