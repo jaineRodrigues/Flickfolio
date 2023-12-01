@@ -55,7 +55,7 @@ function Film() {
 
     if (loading) {
         return (
-            <div className="film-info">
+            <div className="film">
                 <h1>Carregando detalhes...</h1>
             </div>
         );
@@ -72,8 +72,6 @@ function Film() {
                 <div className="content">
                     <h3>Sinopse</h3>
                     <span>{film.overview}</span>
-
-                    <strong>Avalição: {film.vote_average} / 10</strong>
 
                     <div className="area-buttons">
                         <button onClick={salvarFilme}>Salvar</button>

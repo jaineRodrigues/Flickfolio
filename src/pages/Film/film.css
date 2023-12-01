@@ -2,11 +2,8 @@
   margin-top: 7em ;
   color:#ffffff;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-left: 3%;
 }
-
-
 
 .film-info{
   display: flex;
@@ -77,7 +74,7 @@
   text-decoration: none;
   color:#000;
   transition: all 0.5s;
-  }
+}
   
 .area-buttons a:hover{
   color: #FFF;
