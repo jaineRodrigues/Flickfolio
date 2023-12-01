@@ -64,7 +64,6 @@ function Film() {
         <div className="film">
             <h1>{film.title}</h1>
             <div className="film-info">
-                
                 <div className="image">
                     <img src={`https://image.tmdb.org/t/p/original/${film.backdrop_path}`} alt={film.title} />
                 </div>
@@ -72,7 +71,6 @@ function Film() {
                 <div className="content">
                     <h3>Sinopse</h3>
                     <span>{film.overview}</span>
-
                     <div className="area-buttons">
                         <button onClick={salvarFilme}>Salvar</button>
                         <button>

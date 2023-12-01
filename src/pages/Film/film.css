@@ -3,6 +3,7 @@
   color:#ffffff;
   display: flex;
   margin-left: 3%;
+  padding:0;
 }
 
 .film-info{
@@ -13,7 +14,7 @@
 }
 
 .film-info .image{
-  flex:1 1 45rem;
+  flex:1 1 40rem;
 }
 
 .film-info .image img{
@@ -21,8 +22,8 @@
 }
 
 .film-info .content{
-  flex:1 1 50rem;
-  padding:2rem;
+  flex:1 1 40rem;
+  padding:0;
 }
 
 .film-info .content h3{
@@ -79,3 +80,4 @@
 .area-buttons a:hover{
   color: #FFF;
 }
+
