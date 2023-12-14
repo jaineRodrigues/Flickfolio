@@ -18,7 +18,6 @@ Projeto de catalogo de filmes realizado para iniciar os estudos com o framework 
 ### Funcionalidades 🌟
 
 - Lista das principais funcionalidades do catálogo de filmes.
-- Por exemplo:
   - Visualizar todos os filmes em cartazes
   - Visualização dos detalhes de um filme específico.
   - Adicionar filmes aos favoritos.
